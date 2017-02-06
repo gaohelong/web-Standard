@@ -2,12 +2,14 @@
 ◆ JAVASCRIPT.
 ----------------
 1、命名法说明.
+
     1)、camel命名法, 例如：thisIsAnApple
     2)、pascal命名法, 例如：ThisIsAnApple
     3)、下划线命名法, 例如：this_is_an_apple
     4)、中划线命名法, 例如：this-is-an-apple
 
 2、命名规定.
+
     1)、变量名：使用驼峰(camel)命名法
     2)、参数名：使用驼峰(camel)命名法
     3)、函数名：使用驼峰(camel)命名法
@@ -383,4 +385,67 @@
     .tweet { ... }
     .important { ... }
     .tweet-header { ... }
+----------------
+◆ 常用命名.
+----------------
+1.对于布局，即用.g-作为前缀，通常有以下推荐的写法。
+    头部： header或head
+    主体： body
+    尾部：footer或foot
+    主栏： main
+    侧栏：side
+    盒容器： wrap或box
+    主栏子容器：mainc
+    侧栏子容器：sidec
+
+2.对于模块，即.m-作为前缀。元件，.u-作为前缀，通常有下面推荐的写法。
+    导航： nav
+    子导航：subnav
+    菜单：menu
+    选项卡：tab
+    标题区：head或title
+    内容区：body或content
+    列表：list
+    表格：table
+    表单：form
+    排行：top
+    热点：hot
+    登录：login
+    标志：logo
+    广告：adervertise
+    搜索：search
+    幻灯：slide
+    帮助：help
+    新闻：news
+    下载：download
+    注册：register或regist
+    投票：vote
+    版权:copyright
+    结果：result
+    按钮：button
+    输入：input
+
+3.对于功能，即以.f-为前缀，通常推荐如下：
+    清除浮动：clearboth
+    向左浮动：floatleft
+    向右浮动: floatright
+    溢出隐藏：overflowhidden
+
+4.对于颜色，即以.s-为前缀，通常推荐如下：
+    字体颜色：fontcolor
+    背景：background
+    背景颜色：backgroundcolor
+    背景图片：backgroundimage
+    背景定位：backgroundposition
+    边框颜色：bordercolor
+
+5.对于状态，即以.z-为前缀，通常推荐如下：
+    选中: selected
+    当前：current
+    显示：show
+    隐藏：hide
+    打开：open
+    关闭: close
+    出错：error
+    不可用:disabled
 ------------------------------------------------------------
